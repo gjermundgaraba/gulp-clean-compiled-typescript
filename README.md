@@ -3,6 +3,10 @@ Gulp plugin that cleans compiled output from typescript files (.js + js.map file
 
 ## Install
 
+```
+$ npm install --save-dev gulp-clean-compiled-typescript
+```
+
 ## What it deletes
 
 The plugin only supports deleting compiled files with the same name as the TypeScript file that are adjacent to said file.
