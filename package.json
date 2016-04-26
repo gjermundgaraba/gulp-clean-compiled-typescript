@@ -1,0 +1,27 @@
+{
+  "name": "gulp-clean-compiled-typescript",
+  "version": "1.0.0",
+  "description": "Cleans compiled output from typescript files (deletes .js and .js.map files)",
+  "main": "gulp-clean-compiled-typescript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjaanes/gulp-clean-compiled-typescript.git"
+  },
+  "keywords": [
+    "gulp",
+    "typescript"
+  ],
+  "author": "Gjermund Bjaanes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjaanes/gulp-clean-compiled-typescript/issues"
+  },
+  "homepage": "https://github.com/bjaanes/gulp-clean-compiled-typescript#readme",
+  "dependencies": {
+    "del": "^2.2.0",
+    "through2": "^2.0.1"
+  }
+}
