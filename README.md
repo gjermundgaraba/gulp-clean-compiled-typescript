@@ -18,6 +18,8 @@ The following files will be deleted:
 /some/path/some-file.js.map
 ```
 
+If you by accident send in non-TypeScript files, they will completely ignored.
+
 ## Example
 
 You send in the typescript files which have compiled files.
