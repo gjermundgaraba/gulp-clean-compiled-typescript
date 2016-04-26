@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/bjaanes/gulp-clean-compiled-typescript#readme",
   "dependencies": {
-    "del": "^2.2.0",
-    "through2": "^2.0.1"
+    "del": "2.2.0",
+    "through2": "2.0.1"
   }
 }
