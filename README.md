@@ -8,11 +8,17 @@ Gulp plugin that cleans compiled output from typescript files (.js + js.map file
 The plugin only supports deleting compiled files with the same name as the TypeScript file that are adjacent to said file.
 
 That means that if you send in a file with the following filename:
-"/some/path/some-file.ts"
+```
+/some/path/some-file.ts
+```
 
 The following files will be deleted:
-"/some/path/some-file.js"
-"/some/path/some-file.js.map"
+```
+/some/path/some-file.js
+/some/path/some-file.js.map
+```
+
+If you by accident send in non-TypeScript files, they will completely ignored.
 
 ## Example
 
