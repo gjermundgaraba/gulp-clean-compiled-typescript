@@ -8,8 +8,9 @@ function gulpCleanCompiledTypescript() {
         if (regex.test(file.path)) {
             var compiledFile = file.path.replace(regex, '.js');
             var mapFile = file.path.replace(regex, '.js.map');
+            var typeInformation = file.path.replace(regex, '.d.ts');
 
-            del.sync([compiledFile, mapFile]);
+            del.sync([compiledFile, mapFile, typeInformation]);
         }
 
         callback();
