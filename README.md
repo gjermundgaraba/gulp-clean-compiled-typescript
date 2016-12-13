@@ -13,6 +13,8 @@ $ npm install --save-dev gulp-clean-compiled-typescript
 
 The plugin only supports deleting compiled files with the same name as the TypeScript file that are adjacent to said file.
 
+If you by accident send in non-TypeScript files, they will completely ignored.
+
 That means that if you send in a file with the following filename:
 ```
 /some/path/some-file.ts
@@ -24,8 +26,6 @@ The following files will be deleted (if they exist):
 /some/path/some-file.js.map
 /some/path/some-file.d.ts
 ```
-
-If you by accident send in non-TypeScript files, they will completely ignored.
 
 ## Example
 
