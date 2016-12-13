@@ -1,7 +1,7 @@
 # gulp-clean-compiled-typescript
 Gulp plugin that cleans compiled output from typescript files (generated .js, js.map and .d.ts files)
 
-It also supports .tsx files.
+The plugin supports .ts and .tsx files.
 
 ## Install
 
