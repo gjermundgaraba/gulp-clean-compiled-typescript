@@ -18,10 +18,11 @@ That means that if you send in a file with the following filename:
 /some/path/some-file.ts
 ```
 
-The following files will be deleted:
+The following files will be deleted (if they exist):
 ```
 /some/path/some-file.js
 /some/path/some-file.js.map
+/some/path/some-file.d.ts
 ```
 
 If you by accident send in non-TypeScript files, they will completely ignored.
